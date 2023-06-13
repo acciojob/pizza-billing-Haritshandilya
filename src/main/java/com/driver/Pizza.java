@@ -62,9 +62,9 @@ public class Pizza {
                 bill+="\n"+"Extra Toppings Added: 120";
         }
         if(isTakeAway){
-            bill+="\n"+"Paperbag Added: 20";
+            bill+="\n"+"Paperbag Added: 20"+"";
         }
-        bill+="\n"+"Total Price: "+price;
+        bill+="\n"+"Total Price: "+price+"\n";
         return bill;
     }
 }
