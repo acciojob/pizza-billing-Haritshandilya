@@ -48,23 +48,23 @@ public class Pizza {
         // your code goes here
         bill = "";
         if(isVeg){
-            bill+="Base Price Of The Pizza: 300";
+            bill+="Base Price Of The Pizza: 300"+"\n";
         }else{
-            bill+="Base Price Of The Pizza: 400";
+            bill+="Base Price Of The Pizza: 400"+"\n";
         }
         if(isExtraCheeseAdded){
-            bill+="\n"+"Extra Cheese Added: 80";
+            bill+="Extra Cheese Added: 80"+"\n";
         }
         if(isToppingsAdded){
             if(isVeg)
-                bill+="\n"+"Extra Toppings Added: 70";
+                bill+="Extra Toppings Added: 70"+"\n";
             else
-                bill+="\n"+"Extra Toppings Added: 120";
+                bill+="Extra Toppings Added: 120"+"\n";
         }
         if(isTakeAway){
-            bill+="\n"+"Paperbag Added: 20"+"";
+            bill+="Paperbag Added: 20"+"\n";
         }
-        bill+="\n"+"Total Price: "+price+"\n";
+        bill+="Total Price: "+price+"\n";
         return bill;
     }
 }
